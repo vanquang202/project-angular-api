@@ -1,0 +1,16 @@
+<?php
+
+namespace {{ namespace }};
+
+use App\Services\ApiControllerManager\V1\TApiController;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+
+class {{ class }} extends Model
+{
+    use HasFactory,TApiController;
+    protected $table = '';
+    protected $guarded = [];
+
+}
